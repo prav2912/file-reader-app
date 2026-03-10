@@ -39,7 +39,7 @@ jobs:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
-      # Step 6 — Build Docker Ima
+      # Step 6 — Build Docker Imge
       - name: Build Docker Image
         run: docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/file-reader-app:latest .
 
