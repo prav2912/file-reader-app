@@ -1,4 +1,4 @@
+pytest
 flask
 python-docx
 PyPDF2
-pytest
